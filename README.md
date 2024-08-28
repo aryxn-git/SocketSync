@@ -1,5 +1,5 @@
-# TCP Chatroom
-The TCP Chatroom is created using the concept of socket programming in C language. It is based on stream sockets i.e. use TCP sockets. The two macros in server specify the max clients which can connect and chat and the other one specifies max length of messages than can be sent. Since TCP is a connection oriented protocol multithreading is used to handle many clients at same time.
+# SocketSync
+The SocketSync is created using the concept of socket programming in C language. It is based on stream sockets i.e. use TCP sockets. The two macros in server specify the max clients which can connect and chat and the other one specifies max length of messages than can be sent. Since TCP is a connection oriented protocol multithreading is used to handle many clients at same time.
 
 ## Features
 - The server can serve MAX_CLIENT clients.
